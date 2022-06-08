@@ -8,7 +8,6 @@ public class Circle {
 		int radius;
 		double area;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the colour of the circle:");
 		
 		System.out.println("Enter the radius of the circle::");
 		radius=sc.nextInt();
