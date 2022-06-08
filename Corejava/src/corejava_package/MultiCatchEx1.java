@@ -13,7 +13,7 @@ public class MultiCatchEx1 {
 		}
 		catch(ArithmeticException ae)
 		{
-			System.out.println("A number cannot be divided by zero,iilegal operation in java");
+			System.out.println("A number cannot be divided by zero,illegal operation in java");
 		}
 		catch(ArrayIndexOutOfBoundsException e)
 		{
