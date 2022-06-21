@@ -15,7 +15,7 @@ public class CustomExample {
 		}
 		catch(InvalidProductException ex) {
 		System.out.println("Caught the exception");
-		System.out.println(ex.getMessage());p
+		System.out.println(ex.getMessage());
 		}
 
 	}

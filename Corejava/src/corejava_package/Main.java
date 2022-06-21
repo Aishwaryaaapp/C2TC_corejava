@@ -9,8 +9,6 @@ public class Main {
 	 int fun()//if we wont use static compile error
 	{
 		return 20;
-		
-
 	}
 
 }
