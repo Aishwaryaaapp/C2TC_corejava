@@ -15,7 +15,7 @@ public class BubbleSort {
 		int ele;
 		while(array.length)
 		{
-			if(key==);
+			if(key==)
 		}
 	}
 
