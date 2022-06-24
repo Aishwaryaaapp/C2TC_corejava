@@ -1,9 +1,9 @@
 package corejava_package;
 
 public class CustomExample {
-	void check(int weight) throws InvalidProductException{
+	void check (int weight)throws InvalidProductException{
 		if(weight<50) {
-			throw new InvalidProductException("Product Invalid");
+			throw new InvalidProductException();
 		}
 	}
 
