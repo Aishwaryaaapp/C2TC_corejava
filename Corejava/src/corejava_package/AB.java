@@ -19,13 +19,14 @@ public class AB implements Runnable {
 		System.out.println("m1 method");
 	}
 	
-
+//sleep program
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		AB a=new AB();
 		Thread t=new Thread(a,"Child Thread");
 		t.start();
-		System.out.println("number of active"+Thread.activeCount());		a.m1();
+		System.out.println("number of active"+Thread.activeCount());
+		a.m1();
 		
 		
 
